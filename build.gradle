@@ -4,6 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://artifactory.intra.xiaojukeji.com/artifactory/public/' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.2"

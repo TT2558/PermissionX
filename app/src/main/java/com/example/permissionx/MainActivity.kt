@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                 }else{
                     Toast.makeText(this,"you denied $deniedList", Toast.LENGTH_SHORT).show()
                 }
+
             }
         }
     }
